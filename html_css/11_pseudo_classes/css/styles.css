@@ -1,0 +1,55 @@
+.heading {
+    transition: all 300ms ease-in-out;
+}
+
+.heading:hover {
+    background: red;
+}
+
+/* a{
+    color: blue;
+} */
+
+/* todos os links */
+a {
+    color: orangered;
+}
+
+/* links nunca visitados  */
+a:link {
+    color: black;
+}
+
+/* links visitados */
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    background: yellow;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    background: darkslategray;
+    color: white;
+    text-decoration: none;
+}
+
+/* input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
+}
+
+input:disabled {
+    background-color: rebeccapurple;
+    cursor: not-allowed;
+} */
+
+input:checked + p{
+    width: 50px;
+    height: 50px;
+    background: green;
+}

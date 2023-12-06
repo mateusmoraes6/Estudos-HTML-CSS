@@ -1,0 +1,18 @@
+/* seleção de dependentes e herança */
+div {
+    color: initial;
+}
+
+.pai .filha {
+    color: red;
+}
+
+/* com mais especificidade */
+div {
+    color: initial;
+    margin-left: 20px;
+}
+/* child selector */
+.pai > .filha { 
+    color: blue;
+}

@@ -1,0 +1,28 @@
+/* quanto maior a especificidade será a forma do elemento ser selecionado */
+
+/*
+ ID classes, atributos e pseudo-classes  Elementos e pseudo-elementoa  
+ 1  0                                    0
+ 0  1                                    0
+ 1  1                                    0
+ */
+ 
+body#b.class p#p.p::selection:hover {
+    background: purple;
+}
+
+#p {
+    background: red;
+}
+
+#p.p {
+    background: yellow;
+}
+
+/*
+ Regra de especificidade:
+ Maior especificidade;
+ Empate;
+ Style;
+ !important;
+  */

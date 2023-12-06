@@ -1,0 +1,45 @@
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+/* .pai {
+    font-size: 50px;
+} */
+
+/* valor desse elemento multiplicado pelo valor do elemento pai mais próximo dele */
+/* p {
+    font-size: 2em;
+} */
+
+/* se baseia no elemento root multiplicando seu valor */
+/* p {
+    font-size: 2rem;
+} */
+
+.pai {
+    width: 50rem; /*  500pz */
+    height: 100vh;
+    background: violet;
+    overflow: hidden;
+}
+
+.pai > div {
+    width: 50%;
+    height: 50rem;
+    background: red;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.color-one {
+    background: blue;
+}
+
+.color-two {
+    background: blueviolet;
+}
+
+/* vmax e vmin = relacionados ao comportamendo do parágrafo */

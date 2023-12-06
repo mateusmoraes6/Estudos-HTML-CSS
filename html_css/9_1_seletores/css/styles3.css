@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* adjacent sibling selector: seleciona todo elemento indicado após o primeiro elemento */
+.pai h1+p {
+    color: red;
+}
+
+/* o oposto doanterior, seleciona todos elementos que vem depois de outro elemento */
+.pai p+h1 {
+    color: blue
+}
+
+/* general sibling selector:  */
+.pai h1~p {
+    color: purple;
+}
+
+.um, .dois{
+    font-size: 190%;
+}
+
+.pai .um~.dois {
+    color: red;
+}
+
+.pai .um + .dois {
+    color: blue;
+}
